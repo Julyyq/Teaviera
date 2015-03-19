@@ -1,4 +1,15 @@
 GIT
+  remote: git://github.com/cafe-natural/spree_fancy.git
+  revision: 99e6e1142f11df463cefdac3f95c1fefdd6382dd
+  branch: 2-3-stable
+  specs:
+    spree_fancy (1.3.0)
+      compass-rails
+      deface (~> 1.0.0rc3)
+      jquery-ui-rails
+      spree_core (~> 2.3.0)
+
+GIT
   remote: git://github.com/kinduff/spree_reffiliate.git
   revision: c8191238ab94ef162e3b1e9ce18a7c8479bd15d3
   branch: 2-3-stable
@@ -79,17 +90,6 @@ GIT
       devise-encryptable (= 0.1.2)
       json
       multi_json
-      spree_core (~> 2.3.0)
-
-GIT
-  remote: git://github.com/spree/spree_fancy.git
-  revision: c6ddda8e413f6cca706d91900d1d9d110635e02c
-  branch: 2-3-stable
-  specs:
-    spree_fancy (1.3.0)
-      compass-rails
-      deface (~> 1.0.0rc3)
-      jquery-ui-rails
       spree_core (~> 2.3.0)
 
 GEM

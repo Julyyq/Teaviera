@@ -41,3 +41,4 @@ gem 'spring',        group: :development
 gem 'spree', github: 'spree/spree', branch: '2-3-stable'
 gem 'spree_fancy', :github => 'spree/spree_fancy', :branch => '2-3-stable'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-3-stable'
+gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings', branch: '2-3-stable'

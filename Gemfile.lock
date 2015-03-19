@@ -1,4 +1,12 @@
 GIT
+  remote: git://github.com/spree-contrib/spree_mail_settings.git
+  revision: 44a635e675f448a4b4097b777c8032abdcb159aa
+  branch: 2-3-stable
+  specs:
+    spree_mail_settings (2.2.0)
+      spree_backend (~> 2.3.0)
+
+GIT
   remote: git://github.com/spree/spree.git
   revision: ff5e8ce3b24f75bf982dd11048ae3a5868139cf5
   branch: 2-3-stable
@@ -305,6 +313,7 @@ DEPENDENCIES
   spree!
   spree_auth_devise!
   spree_fancy!
+  spree_mail_settings!
   spring
   sqlite3
   turbolinks

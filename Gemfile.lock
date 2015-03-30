@@ -100,6 +100,15 @@ GIT
     spree_promotion_roles_rule (2.3.1)
       spree_core
 
+GIT
+  remote: https://github.com/200Creative/spree_simple_html_emails
+  revision: bc67dd915a56e8d1d1b6ecd6b98fcd38ccacc9ca
+  specs:
+    spree_simple_html_emails (2.1)
+      nokogiri
+      premailer-rails
+      spree_core
+
 GEM
   remote: http://ruby.taobao.org/
   specs:
@@ -142,6 +151,7 @@ GEM
       tzinfo (~> 1.1)
     acts_as_list (0.3.0)
       activerecord (>= 3.0)
+    addressable (2.3.8)
     arel (5.0.1.20140414130214)
     awesome_nested_set (3.0.2)
       activerecord (>= 4.0.0, < 5)
@@ -173,6 +183,8 @@ GEM
       sass (~> 3.2.19)
     compass-rails (2.0.0)
       compass (>= 0.12.2)
+    css_parser (1.3.6)
+      addressable
     deface (1.0.1)
       colorize (>= 0.5.8)
       nokogiri (~> 1.6.0)
@@ -196,6 +208,7 @@ GEM
     fssm (0.2.10)
     highline (1.6.21)
     hike (1.2.3)
+    htmlentities (4.3.3)
     httparty (0.13.3)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
@@ -244,6 +257,12 @@ GEM
     polyamorous (1.1.0)
       activerecord (>= 3.0)
     polyglot (0.3.5)
+    premailer (1.8.4)
+      css_parser (>= 1.3.6)
+      htmlentities (>= 4.0.0)
+    premailer-rails (1.8.0)
+      actionmailer (>= 3, < 5)
+      premailer (~> 1.7, >= 1.7.9)
     rabl (0.9.4.pre1)
       activesupport (>= 2.3.14)
     rack (1.5.2)
@@ -332,6 +351,7 @@ DEPENDENCIES
   spree_mail_settings!
   spree_promotion_roles_rule!
   spree_reffiliate!
+  spree_simple_html_emails!
   spring
   sqlite3
   turbolinks

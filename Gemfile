@@ -43,3 +43,4 @@ gem 'spree_fancy', :github => 'cafe-natural/spree_fancy', :branch => '2-3-stable
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-3-stable'
 gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings', branch: '2-3-stable'
 gem 'spree_reffiliate', github: 'kinduff/spree_reffiliate', branch: '2-3-stable'
+gem 'spree_promotion_roles_rule', github: 'traels/spree-promotion-roles-rule', branch: '2-3-stable'

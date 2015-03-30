@@ -92,8 +92,16 @@ GIT
       multi_json
       spree_core (~> 2.3.0)
 
+GIT
+  remote: git://github.com/traels/spree-promotion-roles-rule.git
+  revision: 6ed04d5a7d1f49ba54aa18c2fa1d3ed643e17b8b
+  branch: 2-3-stable
+  specs:
+    spree_promotion_roles_rule (2.3.1)
+      spree_core
+
 GEM
-  remote: https://ruby.taobao.org/
+  remote: http://ruby.taobao.org/
   specs:
     actionmailer (4.1.8)
       actionpack (= 4.1.8)
@@ -322,6 +330,7 @@ DEPENDENCIES
   spree_auth_devise!
   spree_fancy!
   spree_mail_settings!
+  spree_promotion_roles_rule!
   spree_reffiliate!
   spring
   sqlite3

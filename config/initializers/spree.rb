@@ -12,3 +12,6 @@ Spree.config do |config|
 end
 
 Spree.user_class = "Spree::User"
+
+# spree promotion roles rule
+Rails.application.config.spree.promotions.rules << RolesPromotionRule

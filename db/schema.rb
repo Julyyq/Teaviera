@@ -11,7 +11,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150319110752) do
+ActiveRecord::Schema.define(version: 20150330155754) do
+
+  create_table "roles_promotion_rules", force: true do |t|
+    t.integer "role_id"
+    t.integer "promotion_rule_id"
+  end
+
+  add_index "roles_promotion_rules", ["promotion_rule_id"], name: "index_roles_promotion_rules_on_promotion_rule_id"
+  add_index "roles_promotion_rules", ["role_id"], name: "index_roles_promotion_rules_on_role_id"
 
   create_table "spree_addresses", force: true do |t|
     t.string   "firstname"
